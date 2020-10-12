@@ -1,0 +1,32 @@
+class: csc421-211
+project: proj0
+student: mkhi
+date:
+
+grade: 5/5
+
+passes basic test (#):		5/5
+passes extended test (%):	0/0
+lateness:  			(0)/(4)
+
+(#)
+- passes basic test
+	passed make test
+
+(%)
+- passes extended test 
+	there is no extended test
+
+commit:
+r111 | mkhi | 2020-08-21 17:03:13 -0400 (Fri, 21 Aug 2020) | 1 line
+
+comments:
+	ojo@raritan proj0 % make test
+	cc -o helloworld helloworld.c
+	./helloworld > helloworld.out
+	diff helloworld.out helloworld.ref
+	1c1
+	< Hello World!
+	---
+	> Hello world!
+	make: *** [test] Error 1

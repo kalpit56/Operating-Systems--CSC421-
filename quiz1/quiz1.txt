@@ -1,0 +1,42 @@
+QUIZ 1
+
+Name: Kalpit Mody
+Grade: 4/4
+
+Date out: 21 aug 2020
+Date due: 26 aug 2020
+
+Copy this file to your own _username_/quiz1/ folder. Do not modify
+anything in the class folder, else subversion will stop your commits! 
+Put your name where it says "Name".
+
+Read the Tiny Texbook, the Introduction Section,
+and watch the video "Making Computers Easier to Use", link on the course home
+page under Notes.
+
+Answer the following questions, then commit the file.
+
+1) The video "making computers .. " says there are three parts to the unix 
+   operating system. It had a graphic with 3 nested rotating boxes. 
+
+   What are the 3 parts?
+	-Kernel
+	-Shell
+	-Utilities
+
+2) Can you name files on your Ubuntu instance that directly correspond to
+   each of the 3 parts? (3 points, one for each part).
+	-Kernel: vmlinuz-4.4.0-187-generic 
+	-Shell: /bin/bash
+	-Utilities: /bin/ls
+
+3) Name 4 subsystems of the Unix kernel.
+	-process management
+	-memory management
+	-the virtual file system (VFS)
+	-the networking stack
+
+4) A unix kernel is a monolithic kenel. What other sorts of kernels are there, and 
+   how do they differ. (Short answer, two sentences).
+	Microkernel is another kernel that differs from the monolithic kernel of Unix in that the micro kernel does not need as much memeory. In addition, the microkernel is broken up into different components while the monolithiic is not.	
+

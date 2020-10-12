@@ -1,0 +1,59 @@
+class: csc421-211
+project: proj1
+student: mkhi
+date:
+
+grade: 5/5
+
+passes basic test (#):		3/3
+passes extended test(%):	2/2
+lateness:		(0)/(4)
+
+(#)
+- passes basic test
+	makefile-ext basic-test
+
+(%)
+- passes extended test 
+	makefile-ext extended-test
+
+(late)
+- due fri aug 28
+  -1 mon aug 31
+  -2 fri sep 4
+
+commit:
+r243 | mkhi | 2020-08-28 21:38:01 -0400 (Fri, 28 Aug 2020) | 1 line
+
+comments:
+
+	ojo@raritan proj1 % make -f Makefile-ext basic-test
+	make -f Makefile-ext test1
+	gcc -o mytee mytee.c
+	./mytee -v 
+	usage: mytee [-av] _filename_
+	make -f Makefile-ext test2
+	cat mytee.c | ./mytee mytee.fout > mytee.out
+	diff mytee.fout mytee.c
+	diff mytee.c mytee.out
+	*** PASSED the test ***
+	ojo@raritan proj1 % make -f Makefile-ext extended-test
+	make -f Makefile-ext test3
+	dd if=/dev/urandom bs=1 count=4096 of=random.bin
+	4096+0 records in
+	4096+0 records out
+	4096 bytes transferred in 0.023906 secs (171338 bytes/sec)
+	cat random.bin | ./mytee mytee.fout > mytee.out 
+	diff random.bin mytee.fout 
+	diff random.bin mytee.out
+	make -f Makefile-ext test4
+	dd if=/dev/urandom bs=1 count=4096 of=random.bin
+	4096+0 records in
+	4096+0 records out
+	4096 bytes transferred in 0.013812 secs (296552 bytes/sec)
+	cat random.bin | ./mytee mytee.fout > mytee.out 
+	cat random.bin | ./mytee -a mytee.fout >> mytee.out 
+	diff mytee.fout mytee.out
+	cp random.bin mytee.out
+	cat random.bin >> mytee.out
+	diff mytee.fout mytee.out

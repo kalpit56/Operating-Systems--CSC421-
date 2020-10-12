@@ -1,0 +1,27 @@
+QUIZ 0
+
+Name: Kalpit Mody
+Grade: 1/1
+
+Date out: 17 aug 2020
+Date due: 21 aug 2020
+
+Copy this file to your own _username_/quiz0/ folder. Do not modify
+anything in the class folder, else subversion will stop your commits! 
+Put your name where it says "Name".
+
+Answer the following questions, then commit the file.
+
+nickname or name: Kalpit
+
+caneid: kh47
+
+C-number: C12128218
+
+5-number: 5431060  
+
+preferred email: khm47@miami.edu
+
+slack name: Kalpit Mody
+
+

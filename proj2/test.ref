@@ -1,0 +1,14 @@
+enq: a
+enq: b
+enq: c
+deq: a
+deq: b
+deq: c
+deq: empty
+ioc: 16 1 0 0
+deq: empty
+enq: h
+enq: e
+enq: l
+enq: l
+enq: o

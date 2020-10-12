@@ -1,0 +1,26 @@
+class: csc421-211
+project: proj2
+student: mkhi
+date:
+
+grade: 5/5
+
+passes basic test (#):		3/3
+passes extended test(%):	2/2
+lateness:		(0)/(4)
+
+(#)
+- passes basic test
+	makefile test
+
+(%)
+- passes extended test 
+	makefile-ext ext-test
+
+
+
+commit:
+r417 | mkhi | 2020-09-11 17:19:07 -0400 (Fri, 11 Sep 2020) | 1 line
+
+comments:
+
